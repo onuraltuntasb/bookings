@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
+	"github/onuraltuntasb/bookings/internal/config"
 	"testing"
 
-	"github.com/go-chi/chi"
-	"github.com/onuraltuntasb/bookings/internal/config"
+	"github.com/go-chi/chi/v5"
 )
 
 func TestRoutes(t *testing.T) {

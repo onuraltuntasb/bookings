@@ -3,14 +3,14 @@ package render
 import (
 	"bytes"
 	"fmt"
+	"github/onuraltuntasb/bookings/internal/config"
+	"github/onuraltuntasb/bookings/internal/models"
 	"html/template"
 	"log"
 	"net/http"
 	"path/filepath"
 
 	"github.com/justinas/nosurf"
-	"github.com/onuraltuntasb/bookings/internal/config"
-	"github.com/onuraltuntasb/bookings/internal/models"
 )
 
 var functions = template.FuncMap{}

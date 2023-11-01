@@ -1,12 +1,12 @@
 package main
 
 import (
+	"github/onuraltuntasb/bookings/internal/config"
+	"github/onuraltuntasb/bookings/internal/handlers"
 	"net/http"
 
-	"github.com/go-chi/chi"
-	"github.com/go-chi/chi/middleware"
-	"github.com/onuraltuntasb/bookings/internal/config"
-	"github.com/onuraltuntasb/bookings/internal/handlers"
+	"github.com/go-chi/chi/v5"
+	"github.com/go-chi/chi/v5/middleware"
 )
 
 func routes(app *config.AppConfig) http.Handler {

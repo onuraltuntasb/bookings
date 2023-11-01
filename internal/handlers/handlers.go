@@ -3,13 +3,12 @@ package handlers
 import (
 	"encoding/json"
 	"fmt"
+	"github/onuraltuntasb/bookings/internal/config"
+	"github/onuraltuntasb/bookings/internal/forms"
+	"github/onuraltuntasb/bookings/internal/models"
+	"github/onuraltuntasb/bookings/internal/render"
 	"log"
 	"net/http"
-
-	"github.com/onuraltuntasb/bookings/internal/config"
-	"github.com/onuraltuntasb/bookings/internal/forms"
-	"github.com/onuraltuntasb/bookings/internal/models"
-	"github.com/onuraltuntasb/bookings/internal/render"
 )
 
 // Repo the repository used by the handlers

@@ -1,6 +1,6 @@
 package models
 
-import "github.com/onuraltuntasb/bookings/internal/forms"
+import "github/onuraltuntasb/bookings/internal/forms"
 
 // TemplateData holds data sent from handlers to templates
 type TemplateData struct {

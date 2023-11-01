@@ -3,15 +3,15 @@ package main
 import (
 	"encoding/gob"
 	"fmt"
+	"github/onuraltuntasb/bookings/internal/config"
+	"github/onuraltuntasb/bookings/internal/handlers"
+	"github/onuraltuntasb/bookings/internal/models"
+	"github/onuraltuntasb/bookings/internal/render"
 	"log"
 	"net/http"
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/onuraltuntasb/bookings/internal/config"
-	"github.com/onuraltuntasb/bookings/internal/handlers"
-	"github.com/onuraltuntasb/bookings/internal/models"
-	"github.com/onuraltuntasb/bookings/internal/render"
 )
 
 const portNumber = ":8080"
