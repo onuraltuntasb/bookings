@@ -14,7 +14,7 @@ import (
 	"github.com/alexedwards/scs/v2"
 )
 
-const portNumber = ":8080"
+const portNumber = "127.0.0.1:8080"
 
 var app config.AppConfig
 var session *scs.SessionManager
@@ -30,7 +30,7 @@ func main() {
 
 	srv := &http.Server{
 		Addr:    portNumber,
-		Handler: routes(&app),
+		Handler: Routes(&app),
 	}
 
 	err = srv.ListenAndServe()
